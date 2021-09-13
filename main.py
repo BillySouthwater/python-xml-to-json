@@ -4,7 +4,7 @@ jossa data on esitetty vertailuarvoina"""
 
 #API:n osoitteet
 def getAPIkeys():
-    with open("keyfile.ini", 'r') as keyfile:
+    with open("keyfile.txt", 'r') as keyfile:
         keys = keyfile.read()
         keys = keys.split(" ")
         return keys
